@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "469c1e85e20f9aa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5777ecea77f40a14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22097729cdb8a68a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data1001/Causal Inference.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b63b6ae873a122cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "8613eb1d889aa4c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25e90be5169eda06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8739fe9ad2e93d38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "67e0406d2be82e12",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8f9bfee04b15b421",
+    "type": "split",
+    "children": [
+      {
+        "id": "e858180a0e956e3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "354b5eff9b7db29e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data1001/Causal Inference.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0089fd0ac0db1152",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Data1001/Causal Inference.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49701fbad2bc3d5f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6af3366277bda16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Data1001/Causal Inference.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "25e90be5169eda06",
+  "lastOpenFiles": [
+    "Markdown.md",
+    "comp2521/P, NP.md",
+    "comp2521/Graphs/Graphs.md",
+    "comp2521/Graphs/Weighted Graphs.md",
+    "comp2521/Graphs/Graph Representation.md",
+    "comp2521/Graphs/Shortest Path.md",
+    "comp2521/Graphs/Minimal spanning tree.md",
+    "comp2521/Graphs/Graph Algorithms.md",
+    "Data1001/Causal Inference.md",
+    "Data1001/Untitled",
+    "Data1001",
+    "comp2521/Graphs/Graph traversal.md",
+    "comp2521/Trees/Tree.md",
+    "comp2521/Performance Analysis.md",
+    "Pasted image 20230715155308.png",
+    "Pasted image 20230715154318.png",
+    "Pasted image 20230715154315.png",
+    "Pasted image 20230715154234.png",
+    "Pasted image 20230715155310.png",
+    "Linked List.md",
+    "Pasted image 20230715132046.png",
+    "Graph.md",
+    "Untitled 1.canvas",
+    "[.md",
+    "Untitled.canvas",
+    "2023-07-15.md",
+    "vertices.md",
+    "www.google.com.md",
+    "comp2521/Trees",
+    "comp2521/Graphs",
+    "Untitled",
+    "comp2521"
+  ]
+}
