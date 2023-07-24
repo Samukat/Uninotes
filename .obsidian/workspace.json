@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data1001/Causal Inference.md",
+                "file": "comp2521/Sorting/Sorting Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,14 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data1001/Causal Inference.md",
-                "collapseAll": false,
+                "file": "comp2521/Sorting/Sorting Algorithms.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data1001/Causal Inference.md",
+                "file": "comp2521/Sorting/Sorting Algorithms.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data1001/Causal Inference.md"
+                "file": "comp2521/Sorting/Sorting Algorithms.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -147,20 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25e90be5169eda06",
+  "active": "22097729cdb8a68a",
   "lastOpenFiles": [
     "Markdown.md",
-    "comp2521/P, NP.md",
-    "comp2521/Graphs/Graphs.md",
+    "comp2521/Sorting/Sorting Algorithms.md",
+    "Pasted image 20230724233141.png",
     "comp2521/Graphs/Weighted Graphs.md",
-    "comp2521/Graphs/Graph Representation.md",
     "comp2521/Graphs/Shortest Path.md",
     "comp2521/Graphs/Minimal spanning tree.md",
+    "comp2521/Sorting/Sorting.md",
+    "Pasted image 20230724231448.png",
+    "comp2521/Graphs/Graph traversal.md",
+    "comp2521/Sorting",
+    "comp2521/Graphs/Graphs.md",
     "comp2521/Graphs/Graph Algorithms.md",
+    "comp2521/Graphs/Graph Representation.md",
+    "ASS2 map tests.md",
     "Data1001/Causal Inference.md",
+    "comp2521/P, NP.md",
     "Data1001/Untitled",
     "Data1001",
-    "comp2521/Graphs/Graph traversal.md",
     "comp2521/Trees/Tree.md",
     "comp2521/Performance Analysis.md",
     "Pasted image 20230715155308.png",
