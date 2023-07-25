@@ -1,8 +1,5 @@
 # Summary
 
-**![](https://lh3.googleusercontent.com/D8csDeu74cGyVDn7P1Eveo2uqrA1T1u9zzd4Kdadd5A0jiT9hNvLE8BtvQBrB5Jp0-C_1nl0lBq5QUvA3oCm3lCmCsSuOfRjtUAH0dHH7dnVuaTT9-NocbKLRfk1xOrlEBA7AI5fcpOSe7iEd9n28Co)**
-
-
 |                | # compares |     |     | # swaps |     |     | # moves |     |     |
 |----------------|-----------|-----|-----|--------|-----|-----|--------|-----|-----|
 |                | min       | avg | max | min    | avg | max | min    | avg | max |
@@ -95,9 +92,11 @@ void insertionSort(int a[], int lo, int hi) {
 }
 ```
 
+--- 
 
 # Merge Sort
 The approach is recursive!
+This sort also requires malloc-ing memory.
 
 **Merge Sort Overview**
 1. Split array into roughly two equal sized partitions *O(1)*
@@ -115,7 +114,7 @@ When combining two sorted arrays it is not O(n^2) (unlike unsorted), but O(N)
 <p align="center"> <img src='https://i0.wp.com/blog.shahadmahmud.com/wp-content/uploads/2020/04/ms2.gif?resize=960%2C540&ssl=1' width=300px> </p>
 When merging the split/divided array, the total time will be $$O(\log(n)) \times O(n) = O(n \log(n))$$
 ### Time complexity
-- Worst case: O(n*log(n))
+- Best case: O(n*log(n))
 - Average case: O(n*log(n))
 - Worst case: O(n*log(n))
 - [[Sorting#Adaptive sort|Adaptive sort]]: no
@@ -153,5 +152,64 @@ void merge(Item a[], int lo, int mid, int hi) {
 	for (i = lo, k = 0; i <= hi; i++, k++)
 	    a[i] = tmp[k];
 	free(tmp);
+}
+```
+
+---
+
+# Quick Sort
+This can be done recursively or with a stack.
+Doesn't use as much memory (depending on implementation) as [[Sorting Algorithms#Merge Sort|Merge Sort]].
+May not be [[Sorting#Stable sort|stable]], depending on implementation.
+
+**Quick Sort Overview**
+1. choose an item to be a 'pivot'
+2. Re-arrange (partition) such that:
+	1. All elements to the left of pivot are smaller then pivot
+	2. All right are greater
+3. (Recursively) sort each partition
+
+|lo|i $\rightarrow$ |Unsorted < x| $x_{i}$ |Unsorted > x|$\leftarrow$ j|hi|
+|-|-|-|-|-|-|-|
+
+<p align="center"> 
+<img src='https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif' width=300px>
+<img src='https://lh3.googleusercontent.com/v2NFOwR9oxiuJhzL12LvC4Bii2mUmil-I1CL-uxyralpQ7PPBn7rb391CwktTSkWYr-IzJHKad6TObd3P43a1IB8yxS9eFO3i6bMQ6o2TJ-2gVFa-m31rWiiz2Pd1PvgEu7-7yM4_B2XZJ0KlQIDEQ8' width=300px> </p>
+
+
+### Time complexity
+- Best case: O(n*log(n)) 
+	- Quicksort calls = O(log(n))
+	- Partitioning = O(n)
+- Worst case: O(n^2)
+	- If pivot is chosen badly, i.e Quicksort calls = O(n)
+
+#### Median of three improvement
+Pick 3 numbers, then choose the median of the 3.
+Good choices are *lo, med, hi*.
+
+
+
+### Code
+```c
+void quicksort(Item a[], int lo, int hi) {
+	if (hi <= lo) return;
+	int i = partition(a, lo, hi);
+	quicksort(a, lo, i-1);
+	quicksort(a, i+1, hi);
+}
+ 
+int partition(Item a[], int lo, int hi) {
+	Item v = a[lo];  // pivot
+	int  i = lo+1, j = hi;
+	for (;;) { //essentailly a while true
+	    while (less(a[i],v) && i < j) i++;
+	    while (less(v,a[j]) && j > i) j--;
+	    if (i == j) break;
+		swap(a,i,j);
+	}
+	j = less(a[i],v) ? i : i-1;
+	swap(a,lo,j);
+	return j;
 }
 ```

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5777ecea77f40a14",
+        "id": "b869fed4910786b4",
         "type": "tabs",
         "children": [
           {
-            "id": "22097729cdb8a68a",
+            "id": "b89d61a4c1f6a77c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "comp2521/Sorting/Sorting Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "comp2521/Sorting/Sorting Algorithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "comp2521/Sorting/Sorting Algorithms.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "comp2521/Sorting/Sorting Algorithms.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22097729cdb8a68a",
+  "active": "b89d61a4c1f6a77c",
   "lastOpenFiles": [
-    "Markdown.md",
+    "comp2521/Priority Queue.md",
+    "comp2521/Heaps.md",
     "comp2521/Sorting/Sorting Algorithms.md",
+    "comp2521/Trees/Tree.md",
+    "Pasted image 20230725224532.png",
+    "comp2521/Graphs/Graphs.md",
+    "comp2521/P, NP.md",
+    "comp2521/Performance Analysis.md",
+    "Markdown.md",
+    "Data1001/Causal Inference.md",
+    "ASS2 map tests.md",
     "Pasted image 20230724233141.png",
     "comp2521/Graphs/Weighted Graphs.md",
     "comp2521/Graphs/Shortest Path.md",
@@ -158,16 +159,10 @@
     "Pasted image 20230724231448.png",
     "comp2521/Graphs/Graph traversal.md",
     "comp2521/Sorting",
-    "comp2521/Graphs/Graphs.md",
     "comp2521/Graphs/Graph Algorithms.md",
     "comp2521/Graphs/Graph Representation.md",
-    "ASS2 map tests.md",
-    "Data1001/Causal Inference.md",
-    "comp2521/P, NP.md",
     "Data1001/Untitled",
     "Data1001",
-    "comp2521/Trees/Tree.md",
-    "comp2521/Performance Analysis.md",
     "Pasted image 20230715155308.png",
     "Pasted image 20230715154318.png",
     "Pasted image 20230715154315.png",
