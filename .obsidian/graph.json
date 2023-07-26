@@ -6,32 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:comp2521/Graphs",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:comp2521/Trees",
-      "color": {
-        "a": 1,
-        "rgb": 2733070
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.27395833333333,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.484375,
   "repelStrength": 10.1041666666667,
   "linkStrength": 0.5,
   "linkDistance": 250,
-  "scale": 1.0000000000000133,
+  "scale": 0.4505081176757863,
   "close": true
 }
