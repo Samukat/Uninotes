@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data1001/Causal Inference.md",
+                "file": "comp2521/Trees/Tries.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data1001/Causal Inference.md",
+                "file": "comp2521/Trees/Tries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data1001/Causal Inference.md",
+                "file": "comp2521/Trees/Tries.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data1001/Causal Inference.md"
+                "file": "comp2521/Trees/Tries.md"
               }
             }
           }
@@ -147,8 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25e90be5169eda06",
+  "active": "22097729cdb8a68a",
   "lastOpenFiles": [
+    "comp2521/Trees/Tree.md",
+    "comp2521/Trees/Heaps.md",
+    "comp2521/Trees/Tries.md",
+    "comp2521/Hashing.md",
+    "comp2521/Performance Analysis.md",
+    "comp2521/Sorting/Sorting Algorithms.md",
+    "comp2521/Sorting/Sorting.md",
+    "Data1001/Causal Inference.md",
     "Markdown.md",
     "comp2521/P, NP.md",
     "comp2521/Graphs/Graphs.md",
@@ -157,12 +165,9 @@
     "comp2521/Graphs/Shortest Path.md",
     "comp2521/Graphs/Minimal spanning tree.md",
     "comp2521/Graphs/Graph Algorithms.md",
-    "Data1001/Causal Inference.md",
     "Data1001/Untitled",
     "Data1001",
     "comp2521/Graphs/Graph traversal.md",
-    "comp2521/Trees/Tree.md",
-    "comp2521/Performance Analysis.md",
     "Pasted image 20230715155308.png",
     "Pasted image 20230715154318.png",
     "Pasted image 20230715154315.png",
