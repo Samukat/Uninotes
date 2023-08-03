@@ -1,6 +1,8 @@
 # Hashing
 Hashing is the process of transforming any given key or a string of characters into another value.
 Key Space: The max amount of key-value pairs
+>Often the size of the key space is a prime as makes for better hash function
+
 
 ### Issues:
 - Collisions 

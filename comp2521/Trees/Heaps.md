@@ -6,7 +6,7 @@ They are very useful for [[Priority Queue]].
 ### Properties
 Heaps are not trees, but can be conceptually considered as a dense tree where:
 - Tree maintains order with higher elements at top
-- Items on right are larger, Items on left are smaller
+- Items on right are larger, Items on left are smaller (not all the time)
 - Adding item starts up lower-most, right-most leaf, which then move up
 - items are always deleted by removing root (top priority)
 - Since heaps are dense trees, depth = floor(log(2N)) + 1

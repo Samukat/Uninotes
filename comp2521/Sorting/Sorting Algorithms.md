@@ -7,6 +7,19 @@
 | Selection Sort | n^2       | n^2 | n^2 | n      | n   | n   | .      | .   | .   |
 | Insertion Sort | n         | n^2 | n^2 | .      | .   | .   | n      | n^2 | n^2 |
 
+
+|Sort|Avg Time complexity|Adaptive|Stability|
+|---|---|---|---|
+|Bubble sort|O(n^2)|Yes|Yes|
+|Insertion sort|O(n^2)|yes|yes|
+|Selection sort|O(n^2)|no|no|
+|Merge sort|O(n*log(n))|no|yes|
+|Naive quicksort|O(n*log(n))|no|no|
+|Median-of-three quicksort|O(n*log(n))|no|no|
+|Randomised quicksort|O(n*log(n))|no|no|
+|Bogosort|O((N-1)* N!)|no?|no|
+
+
 # Bubble Sort
 Moves through list pair-wise, swapping pairs in the wrong order. Repeats until list is sorted
 
@@ -118,6 +131,7 @@ When merging the split/divided array, the total time will be $$O(\log(n)) \times
 - Average case: O(n*log(n))
 - Worst case: O(n*log(n))
 - [[Sorting#Adaptive sort|Adaptive sort]]: no
+- Stable Yes
 
 ### Code 
 ```c
